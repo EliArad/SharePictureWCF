@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="43c8e2b5-e813-47d6-8825-5b6cbc19d33b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8093/WCFSharePictureService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ShareService.wsdl" MetadataType="Wsdl" ID="3a84d230-5cba-41ed-b4a6-2013b0687e1a" SourceId="1" SourceUrl="http://localhost:8093/WCFSharePictureService" />
+    <MetadataFile FileName="WCFSharePictureService.xsd" MetadataType="Schema" ID="9e7a07a4-5183-445b-b3c5-a21392796e8f" SourceId="1" SourceUrl="http://localhost:8093/WCFSharePictureService?xsd=xsd1" />
+    <MetadataFile FileName="WCFSharePictureService1.xsd" MetadataType="Schema" ID="38cb9e91-89d4-4514-b4ac-d9b4abed2549" SourceId="1" SourceUrl="http://localhost:8093/WCFSharePictureService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
